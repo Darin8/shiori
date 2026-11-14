@@ -1,0 +1,12 @@
+.superpowers/
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+
+# Local working notes, never uploaded
+docs/project-facts.md
+docs/superpowers/

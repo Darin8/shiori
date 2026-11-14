@@ -1,0 +1,9793 @@
+{
+ "source": "yomidevs/yomitan ext/js/language/ja/japanese-transforms.js @ ee81f8dcf13e985bb4d7961009fb49a764b4d924 (GPL-3.0)",
+ "commit": "ee81f8dcf13e985bb4d7961009fb49a764b4d924",
+ "conditions": {
+  "v": {
+   "isDictionaryForm": false,
+   "subConditions": [
+    "v1",
+    "v5",
+    "vk",
+    "vs",
+    "vz"
+   ]
+  },
+  "v1": {
+   "isDictionaryForm": true,
+   "subConditions": [
+    "v1d",
+    "v1p"
+   ]
+  },
+  "v1d": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "v1p": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "v5": {
+   "isDictionaryForm": true,
+   "subConditions": [
+    "v5d",
+    "v5s"
+   ]
+  },
+  "v5d": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "v5s": {
+   "isDictionaryForm": false,
+   "subConditions": [
+    "v5ss",
+    "v5sp"
+   ]
+  },
+  "v5ss": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "v5sp": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "vk": {
+   "isDictionaryForm": true,
+   "subConditions": []
+  },
+  "vs": {
+   "isDictionaryForm": true,
+   "subConditions": []
+  },
+  "vz": {
+   "isDictionaryForm": true,
+   "subConditions": []
+  },
+  "adj-i": {
+   "isDictionaryForm": true,
+   "subConditions": []
+  },
+  "-ます": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-ません": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-て": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-ば": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-く": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-た": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-ん": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-なさい": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  },
+  "-ゃ": {
+   "isDictionaryForm": false,
+   "subConditions": []
+  }
+ },
+ "transforms": [
+  {
+   "id": "-ば",
+   "name": "-ば",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ければ",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "えば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "へば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "けば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "めば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v1",
+      "v5",
+      "vk",
+      "vs",
+      "vz"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": ""
+    }
+   ]
+  },
+  {
+   "id": "-ゃ",
+   "name": "-ゃ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "けりゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "ければ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "ければ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "や",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "えば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "けば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "げば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "せば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "てば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "ねば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "べば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "めば"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りゃ",
+     "conditionsIn": [
+      "-ゃ"
+     ],
+     "conditionsOut": [
+      "-ば"
+     ],
+     "deinflected": "れば"
+    }
+   ]
+  },
+  {
+   "id": "-ちゃ",
+   "name": "-ちゃ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いじゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ちゃ",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ちゃう",
+   "name": "-ちゃう",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いじゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ちゃう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ちまう",
+   "name": "-ちまう",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いじまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んじまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ちまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-しまう",
+   "name": "-しまう",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "てしまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でしまう",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    }
+   ]
+  },
+  {
+   "id": "-なさい",
+   "name": "-なさい",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "なさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "になさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為なさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きなさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来なさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來なさい",
+     "conditionsIn": [
+      "-なさい"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-そう",
+   "name": "-そう",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きそう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きさう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-すぎる",
+   "name": "-すぎる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "すぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "すぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為すぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きすぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来すぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來すぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-過ぎる",
+   "name": "-過ぎる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "い過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひ過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "き過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎ過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "し過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ち過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "に過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "び過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "み過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "り過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じ過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "し過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "き過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來過ぎる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-たい",
+   "name": "-たい",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "たい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為たい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きたい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来たい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來たい",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-たら",
+   "name": "-たら",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "かったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いだら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為たら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来たら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來たら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "いく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "行ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "行く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "逝ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "逝く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "往ったら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "往く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "こう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "とう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "請うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "請う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "乞うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "乞う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "恋うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "恋う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "問うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "問う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "訪うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "訪う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "宣うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "宣う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "曰うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "曰う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "給うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "給う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "賜うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "賜う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "揺蕩うたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "揺蕩う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のたもうたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "のたまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たもうたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たゆとうたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たゆたう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ましたら",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    }
+   ]
+  },
+  {
+   "id": "-たり",
+   "name": "-たり",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "かったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いだり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "したり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為たり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来たり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來たり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "いく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "行ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "行く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "逝ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "逝く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "往ったり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "往く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "こう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "とう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "請うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "請う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "乞うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "乞う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "恋うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "恋う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "問うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "問う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "訪うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "訪う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "宣うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "宣う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "曰うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "曰う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "給うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "給う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "賜うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "賜う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "揺蕩うたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "揺蕩う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のたもうたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "のたまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たもうたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たゆとうたり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たゆたう"
+    }
+   ]
+  },
+  {
+   "id": "-て",
+   "name": "-て",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "くて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "て",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いで",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "して",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んで",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んで",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んで",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "して",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為て",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来て",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來て",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いって",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "いく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "行って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "行く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "逝って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "逝く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "往って",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "往く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "こう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "とう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "請うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "請う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "乞うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "乞う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "恋うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "恋う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "問うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "問う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "訪うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "訪う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "宣うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "宣う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "曰うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "曰う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "給うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "給う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "賜うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "賜う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "揺蕩うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "揺蕩う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のたもうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "のたまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たもうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たゆとうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たゆたう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まして",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    }
+   ]
+  },
+  {
+   "id": "-ず",
+   "name": "-ず",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ず",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ぬ",
+   "name": "-ぬ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ぬ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ん",
+   "name": "-ん",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ん",
+     "conditionsIn": [
+      "-ん"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-んばかり",
+   "name": "-んばかり",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "んばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為んばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こんばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来んばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來んばかり",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-んとする",
+   "name": "-んとする",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "んとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為んとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こんとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来んとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來んとする",
+     "conditionsIn": [
+      "vs"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-む",
+   "name": "-む",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "む",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為む",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こむ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来む",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來む",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ざる",
+   "name": "-ざる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ざる",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-ねば",
+   "name": "-ねば",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ねば",
+     "conditionsIn": [
+      "-ば"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-く",
+   "name": "-く",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "く",
+     "conditionsIn": [
+      "-く"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "causative",
+   "name": "causative",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ませる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じさせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜさせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為せる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せさせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こさせる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來させる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "short causative",
+   "name": "short causative",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "さす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ます",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はす",
+     "conditionsIn": [
+      "v5sp"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じさす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜさす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為す",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こさす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来さす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來さす",
+     "conditionsIn": [
+      "v5ss"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "imperative",
+   "name": "imperative",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ろ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "よ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "え",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "へ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "け",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "て",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ね",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "め",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じろ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜよ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しろ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せよ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ろ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為よ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来い",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來い",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "continuative",
+   "name": "continuative",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "い",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "いる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "え",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "える"
+    },
+    {
+     "type": "suffix",
+     "inflected": "き",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "きる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ぎる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "け",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ける"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "げる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "じる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "せる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ぜる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ち",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ちる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "て",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "てる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "で",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "でる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "に",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "にる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ね",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ねる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "ひる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "び",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "びる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "へ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "へる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "べる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "み",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "みる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "め",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "める"
+    },
+    {
+     "type": "suffix",
+     "inflected": "り",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "りる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1d"
+     ],
+     "deinflected": "れる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "い",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "き",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "し",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ち",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "に",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "び",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "み",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "り",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "き",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "し",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "negative",
+   "name": "negative",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "くない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "わない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    }
+   ]
+  },
+  {
+   "id": "-さ",
+   "name": "-さ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "さ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "passive",
+   "name": "passive",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "かれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "される",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d",
+      "v5sp"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "われる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じされる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜされる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "される",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為れる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こられる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-た",
+   "name": "-た",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "かった",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "た",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いだ",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "した",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだ",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだ",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んだ",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "した",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為た",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来た",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來た",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いった",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "いく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "行った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "行く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "逝った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "逝く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "往った",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "往く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "こう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "とう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "請うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "請う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "乞うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "乞う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "恋うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "恋う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "問うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "問う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "訪うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "訪う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "宣うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "宣う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "曰うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "曰う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "給うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "給う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "賜うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "賜う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "揺蕩うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "揺蕩う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のたもうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "のたまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たもうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たまう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たゆとうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "たゆたう"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ました",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でした",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-ません"
+     ],
+     "deinflected": ""
+    },
+    {
+     "type": "suffix",
+     "inflected": "かった",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-ません",
+      "-ん"
+     ],
+     "deinflected": ""
+    }
+   ]
+  },
+  {
+   "id": "-ます",
+   "name": "-ます",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "いらっしゃいます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "いらっしゃる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "ございます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ござる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "なさいます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "なさる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "くださいます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "くださる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "下さいます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "下さる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "おっしゃいます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "おっしゃる"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "仰います",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "仰る"
+    },
+    {
+     "type": "wholeWord",
+     "inflected": "仰有います",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "仰有る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "います",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "します",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d",
+      "v5s"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ります",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "します",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為ます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来ます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來ます",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "くあります",
+     "conditionsIn": [
+      "-ます"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "potential",
+   "name": "potential",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "れる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v1",
+      "v5d"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "える",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ける",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ねる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "める",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v5d"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "できる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "出来る",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "これる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来れる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來れる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "potential or passive",
+   "name": "potential or passive",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ざれる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜられる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せられる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こられる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來られる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "volitional",
+   "name": "volitional",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "よう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "やう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "はう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "がう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "さう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "たう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "なう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ばう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じよう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じやう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しよう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為よう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為やう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こよう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こやう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来よう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来やう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來よう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來やう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ましょう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ませう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    },
+    {
+     "type": "suffix",
+     "inflected": "かろう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "からう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "volitional slang",
+   "name": "volitional slang",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "よっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じよっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しよっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為よっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こよっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来よっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來よっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ましょっか",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": "ます"
+    }
+   ]
+  },
+  {
+   "id": "-まい",
+   "name": "-まい",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v"
+     ],
+     "deinflected": ""
+    },
+    {
+     "type": "suffix",
+     "inflected": "まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じまい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しまい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こまい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "まい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ます"
+     ],
+     "deinflected": ""
+    }
+   ]
+  },
+  {
+   "id": "-おく",
+   "name": "-おく",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ておく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でおく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "どく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ないでおく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ないどく",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    }
+   ]
+  },
+  {
+   "id": "-いる",
+   "name": "-いる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ている",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てゐる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ておる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てる",
+     "conditionsIn": [
+      "v1p"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でいる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でゐる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でおる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でる",
+     "conditionsIn": [
+      "v1p"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "で"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "て"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ないでいる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ないでゐる",
+     "conditionsIn": [
+      "v1"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    }
+   ]
+  },
+  {
+   "id": "-ふ",
+   "name": "-ふ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ふ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    }
+   ]
+  },
+  {
+   "id": "-き",
+   "name": "-き",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "き",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "-げ",
+   "name": "-げ",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "げ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    },
+    {
+     "type": "suffix",
+     "inflected": "気",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "-がる",
+   "name": "-がる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "がる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "い"
+    }
+   ]
+  },
+  {
+   "id": "-やがる",
+   "name": "-やがる",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "やがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為やがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来やがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來やがる",
+     "conditionsIn": [
+      "v5"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-やしない",
+   "name": "-やしない",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "やしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為やしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来やしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來やしない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-やしません",
+   "name": "-やしません",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "やしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v1"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "う"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぎやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぐ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "す"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "つ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "にやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぬ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "びやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "ぶ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "む"
+    },
+    {
+     "type": "suffix",
+     "inflected": "りやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "v5"
+     ],
+     "deinflected": "る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "じやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vz"
+     ],
+     "deinflected": "ずる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "する"
+    },
+    {
+     "type": "suffix",
+     "inflected": "為やしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vs"
+     ],
+     "deinflected": "為る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "きやしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "くる"
+    },
+    {
+     "type": "suffix",
+     "inflected": "来やしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "来る"
+    },
+    {
+     "type": "suffix",
+     "inflected": "來やしません",
+     "conditionsIn": [
+      "-ません"
+     ],
+     "conditionsOut": [
+      "vk"
+     ],
+     "deinflected": "來る"
+    }
+   ]
+  },
+  {
+   "id": "-え",
+   "name": "-え",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "ねえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "めえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "むい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "むい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちぇえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "つい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "つい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "すい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ええ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "いい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ええ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "わい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ええ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "よい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "いぇえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "よい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "うぇえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "わい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "けえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "かい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "がい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ごい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "さい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "めえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "まい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ずい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っぜえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ずい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "らい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "らい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちぇえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ちゃい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "どい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "れい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ばい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てえ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "たい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ねぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "めぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "むい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "みぃ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "むい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ちぃ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "つい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "すい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "けぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "かい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "がい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "げぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ごい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "さい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "めぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "まい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぜぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ずい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "っぜぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ずい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "らい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "でぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "どい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "れぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "れい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "べぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ばい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "てぇ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "たい"
+    }
+   ]
+  },
+  {
+   "id": "n-slang",
+   "name": "n-slang",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "んなさい",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-なさい"
+     ],
+     "deinflected": "りなさい"
+    },
+    {
+     "type": "suffix",
+     "inflected": "らんない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "られない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "らない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んなきゃ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ゃ"
+     ],
+     "deinflected": "らなきゃ"
+    },
+    {
+     "type": "suffix",
+     "inflected": "んなきゃ",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-ゃ"
+     ],
+     "deinflected": "れなきゃ"
+    }
+   ]
+  },
+  {
+   "id": "imperative negative slang",
+   "name": "imperative negative slang",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "んな",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "v"
+     ],
+     "deinflected": "る"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben negative",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "へん",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひん",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "せえへん",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "しない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "へんかった",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "なかった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ひんかった",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "なかった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "うてへん",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ってない"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben -て",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "って"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "あって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "かって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "がって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "さって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぞうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "ざって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "たって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "どうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "だって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "なって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ほうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "はって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "ばって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "まって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "らって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "やって"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ゆうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "いって"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben -た",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "った"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "あった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "かった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "がった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "さった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぞうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "ざった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "たった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "どうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "だった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "なった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ほうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "はった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "ばった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "まった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "らった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "やった"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ゆうた",
+     "conditionsIn": [
+      "-た"
+     ],
+     "conditionsOut": [
+      "-た"
+     ],
+     "deinflected": "いった"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben -たら",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "あったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "かったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "がったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "さったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぞうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ざったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "たったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "どうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "だったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "なったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ほうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "はったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ばったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "まったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "らったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "やったら"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ゆうたら",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "いったら"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben -たり",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "おうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "あったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "かったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "がったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "さったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぞうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ざったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "たったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "どうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "だったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "なったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ほうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "はったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "ばったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "まったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "らったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "やったり"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ゆうたり",
+     "conditionsIn": [],
+     "conditionsOut": [],
+     "deinflected": "いったり"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben -く",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "う",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "く"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "かく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "がく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "さく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "たく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "なく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "ばく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "まく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "らく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "よう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "よく"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しゅう",
+     "conditionsIn": [],
+     "conditionsOut": [
+      "-く"
+     ],
+     "deinflected": "しく"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben adjective -て",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "くて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "かくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "がくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "さくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "たくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "なくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "ばくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "まくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "らくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "よくて"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しゅうて",
+     "conditionsIn": [
+      "-て"
+     ],
+     "conditionsOut": [
+      "-て"
+     ],
+     "deinflected": "しくて"
+    }
+   ]
+  },
+  {
+   "id": "kansai-ben adjective negative",
+   "name": "kansai-ben",
+   "rules": [
+    {
+     "type": "suffix",
+     "inflected": "うない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "くない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "こうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "かくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ごうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "がくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "そうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "さくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "とうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "たくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "のうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "なくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ぼうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "ばくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "もうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "まくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ろうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "らくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "ようない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "よくない"
+    },
+    {
+     "type": "suffix",
+     "inflected": "しゅうない",
+     "conditionsIn": [
+      "adj-i"
+     ],
+     "conditionsOut": [
+      "adj-i"
+     ],
+     "deinflected": "しくない"
+    }
+   ]
+  }
+ ]
+}
