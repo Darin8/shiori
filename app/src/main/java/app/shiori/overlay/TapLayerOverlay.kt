@@ -226,20 +226,31 @@ class TapLayerOverlay(
             View.MeasureSpec.makeMeasureSpec(sh, View.MeasureSpec.AT_MOST),
         )
         val gap = (LEADER_GAP_DP * context.resources.displayMetrics.density).toInt()
-        val text = textBlock()
+        var text = textBlock(word)
         val limiter = view as? HeightLimited
         fun place(w: Int, h: Int): PopupPlacement =
-            if (text == null) PopupPlacement(placePopup(sw, sh, word, w, h, gap = gap), null)
-            else placePopupClear(sw, sh, word, text, w, h, gap = gap)
+            text?.let { placePopupClear(sw, sh, word, it, w, h, gap = gap) }
+                ?: PopupPlacement(placePopup(sw, sh, word, w, h, gap = gap), null)
+        fun remeasure() = view.measure(
+            View.MeasureSpec.makeMeasureSpec(sw, View.MeasureSpec.AT_MOST),
+            View.MeasureSpec.makeMeasureSpec(sh, View.MeasureSpec.AT_MOST),
+        )
         var placement = place(view.measuredWidth, view.measuredHeight)
-        if (placement.maxHeight != null && limiter != null) {
+        val band = placement.maxHeight
+        if (band != null && limiter != null) {
             // Too tall for the free band: the glossary scrolls inside it rather than covering the text.
-            limiter.limitHeight(placement.maxHeight)
-            view.measure(
-                View.MeasureSpec.makeMeasureSpec(sw, View.MeasureSpec.AT_MOST),
-                View.MeasureSpec.makeMeasureSpec(sh, View.MeasureSpec.AT_MOST),
-            )
-            placement = place(view.measuredWidth, view.measuredHeight)
+            limiter.limitHeight(band)
+            remeasure()
+            placement = if (view.measuredHeight <= band) {
+                place(view.measuredWidth, view.measuredHeight)
+            } else {
+                // The card can't shrink that far (header and pager stay): sit beside the word instead of off screen.
+                // Later re-placements (stepping entries) keep that choice.
+                text = null
+                limiter.limitHeight(null)
+                remeasure()
+                place(view.measuredWidth, view.measuredHeight)
+            }
         }
         val pos = placement.pos
         val lp = params(
@@ -263,12 +274,14 @@ class TapLayerOverlay(
         }
     }
 
-    /** Bounding union of every OCR line in screen pixels, or null when there are none. */
-    private fun textBlock(): Box? {
-        if (lastLines.isEmpty()) return null
+    /** The text block around [word] in screen pixels (see [textAround]), or null when there are no lines. */
+    private fun textBlock(word: Box): Box? {
         val m = screenMap()
-        val boxes = lastLines.map { m.toView(FrameBox(it.box.left, it.box.top, it.box.right, it.box.bottom)) }
-        return Box(boxes.minOf { it.left }, boxes.minOf { it.top }, boxes.maxOf { it.right }, boxes.maxOf { it.bottom })
+        val boxes = lastLines.map {
+            val v = m.toView(FrameBox(it.box.left, it.box.top, it.box.right, it.box.bottom))
+            Box(v.left, v.top, v.right, v.bottom)
+        }
+        return textAround(boxes, word)
     }
 
     /** The card sits inside the popup window, inset by the shadow padding; the leader runs from the card edge. */

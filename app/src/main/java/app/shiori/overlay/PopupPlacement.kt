@@ -73,6 +73,35 @@ fun leaderLine(popup: Box, word: Box, inset: Float = 14f): Leader? {
     }
 }
 
+/**
+ * The block of text the tapped [word] belongs to: its line plus every line chained to it by a vertical gap of at most
+ * one line height and some horizontal overlap. Stray text elsewhere on screen (HUD, background) is left out.
+ */
+fun textAround(lines: List<Box>, word: Box): Box? {
+    if (lines.isEmpty()) return null
+    val midY = (word.top + word.bottom) / 2f
+    val midX = (word.left + word.right) / 2f
+    val seed = lines.firstOrNull { midY in it.top..it.bottom && midX in it.left..it.right }
+        ?: lines.minBy { kotlin.math.abs((it.top + it.bottom) / 2f - midY) + kotlin.math.abs((it.left + it.right) / 2f - midX) }
+    var block = seed
+    val rest = lines.toMutableList().apply { remove(seed) }
+    val lineHeight = seed.bottom - seed.top
+    while (true) {
+        val next = rest.firstOrNull { isNextTo(block, it, maxOf(lineHeight, it.bottom - it.top)) } ?: return block
+        rest.remove(next)
+        block = Box(
+            minOf(block.left, next.left), minOf(block.top, next.top),
+            maxOf(block.right, next.right), maxOf(block.bottom, next.bottom),
+        )
+    }
+}
+
+private fun isNextTo(block: Box, line: Box, maxGap: Float): Boolean {
+    val gap = maxOf(0f, line.top - block.bottom, block.top - line.bottom)
+    val overlapsHorizontally = line.left < block.right && line.right > block.left
+    return gap <= maxGap && overlapsHorizontally
+}
+
 /** A placement plus, when the card must shrink to avoid the text, the most height (px) its window may use. */
 data class PopupPlacement(val pos: PopupPos, val maxHeight: Int?)
 

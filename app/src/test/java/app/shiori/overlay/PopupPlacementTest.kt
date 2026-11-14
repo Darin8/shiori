@@ -153,6 +153,30 @@ class PopupPlacementTest {
         assertEquals(null, r.maxHeight)
     }
 
+    // Star Ocean 3 on the Nova: a stray line at the top of a whole-screen read pushed the popup under the dialogue.
+    @Test fun textAroundIgnoresLinesFarFromTheTappedLine() {
+        val stray = Box(4f, 9f, 871f, 49f)
+        val name = Box(193f, 573f, 778f, 647f)
+        val speech = Box(200f, 626f, 693f, 697f)
+        val word = Box(472f, 636f, 575f, 688f)
+        assertEquals(Box(193f, 573f, 778f, 697f), textAround(listOf(stray, name, speech), word))
+    }
+
+    @Test fun textAroundFollowsAChainOfCloseLines() {
+        val lines = listOf(Box(100f, 700f, 900f, 740f), Box(100f, 750f, 900f, 790f), Box(100f, 800f, 900f, 840f))
+        assertEquals(Box(100f, 700f, 900f, 840f), textAround(lines, Box(150f, 805f, 200f, 835f)))
+    }
+
+    @Test fun textAroundSkipsSideTextOnTheSameRows() {
+        val dialogue = Box(100f, 700f, 600f, 740f)
+        val hud = Box(1000f, 690f, 1270f, 730f)
+        assertEquals(dialogue, textAround(listOf(dialogue, hud), Box(150f, 705f, 200f, 735f)))
+    }
+
+    @Test fun textAroundIsNullWithoutLines() {
+        assertEquals(null, textAround(emptyList(), Box(0f, 0f, 10f, 10f)))
+    }
+
     @Test fun commonnessFollowsRank() {
         assertEquals(1f, commonness(1), 0.001f)
         assertEquals(0.05f, commonness(1_000_000), 0.001f)
