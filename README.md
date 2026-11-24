@@ -1,5 +1,5 @@
 <h3 align="center">Shiori</h3>
-<p align="center">Look up Japanese words in any game on your Android handheld and mine them into Anki, without pausing.</p>
+<p align="center">Look up Japanese words in any game on your Android handheld with Anki integration.</p>
 
 <p align="center">
   <img src="docs/images/popup.png" width="49%">
